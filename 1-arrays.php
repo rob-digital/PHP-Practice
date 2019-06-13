@@ -15,7 +15,7 @@ echo '</dl>';
 
 
 /* implode  function  - converting array to string */
-$days2 = array('Monday', 'Tueaday','Wednesday', 'Thursday');
+$days2 = array('Monday', 'Tuesday','Wednesday', 'Thursday');
 $csv_list = implode(',', $days2);
 echo $csv_list;
 ?>
