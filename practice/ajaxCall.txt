@@ -1,0 +1,21 @@
+/*
+$(document).ready(function() {
+    $("button").click(function(){
+      var one = $("#firstNum").val();
+      var two = $("#secondNum").val();
+    
+
+    $.ajax({
+      method: "post",
+      url: "calculator.php",
+      data: {first: one, second: two}
+    })
+    .done(function(data){
+      $('#score').html(data);
+    });
+  });
+});
+*/
+
+var numval = <?php echo $score; ?>;
+alert(numval);
