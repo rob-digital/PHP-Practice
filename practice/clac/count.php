@@ -1,22 +1,21 @@
-<?php include 'index.php'; ?>
 <?php
 
 
+namespace Calc;
 
 $first = $_POST['firstNum'];
 $second = $_POST['secondNum'];
 
-
 class Calc
- {
+{
     private $firstNum;
     private $secondNum;
-    
+
     function __construct(int $firstNum, int $secondNum) {
         $this->firstNum = $firstNum;
         $this->secondNum = $secondNum;
     }
-    
+
     public function add() {
         return $this->firstNum + $this->secondNum;
     }
@@ -33,7 +32,7 @@ class Calc
 
 $allNumbers = new Calc($first, $second);
 
-if(isset($_POST['add'], $_POST['firstNum'], $_POST['secondNum'])) {
+if(isset($_POST['add'])) {
     $score = $allNumbers->add();
     echo $score;
     echo '<script>showname($_score) </script>';
@@ -46,27 +45,23 @@ if(isset($_POST['add'], $_POST['firstNum'], $_POST['secondNum'])) {
 
 
 
-   //echo '<a href="calculator.html">';
-    
-    
-  //  echo header('Location: calculator.html');
-  
-   
+    //echo '<a href="calculator.html">';
 
-    
- 
+
+    //  echo header('Location: calculator.html');
+
+
+
+
+
 }
 if(isset($_POST['sub'])) {
-    echo $allNumbers->subtract() .'<br>';   
+    echo $allNumbers->subtract() .'<br>';
 }
 if(isset($_POST['mul'])) {
-    echo $allNumbers->multiply() .'<br>';   
+    echo $allNumbers->multiply() .'<br>';
 }
 if(isset($_POST['div'])) {
-    echo $allNumbers->divide() .'<br>';   
+    echo $allNumbers->divide() .'<br>';
+
 }
-// echo $allNumbers->add() .'<br>';
-// echo $allNumbers->subtract() .'<br>';
-
-?>
-

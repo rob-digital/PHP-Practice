@@ -18,8 +18,6 @@ class Dog
        $this->breed = $kind;
     }
 
-    
-
     public function getBreed() {
         return $this->breed;
     }

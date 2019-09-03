@@ -1,7 +1,7 @@
 
 
 console.log("RTS");
-  
+
 function showname(username)
 {
 alert(username);

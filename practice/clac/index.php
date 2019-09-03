@@ -28,7 +28,7 @@
       
         ">
         
-        <form align="center" class="col s12" action="calculator.php" method="post" 
+        <form align="center" class="col s12" action="calculator.php" method="post"
         
         >
         <div 
@@ -96,3 +96,7 @@
 
     </body>
 </html>
+<?php
+
+
+//require_once  'count.php';
