@@ -1,0 +1,14 @@
+.s2{
+    border-radius: 5px;
+}
+#title{
+    margin-bottom: 5%
+}
+#modal1{
+    border-radius: 5px;
+    text-align: center;
+    width: 20%
+}
+#result{
+    font-size: 3rem
+}

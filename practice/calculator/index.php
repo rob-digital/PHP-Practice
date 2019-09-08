@@ -13,7 +13,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
         <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>  
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
       
@@ -29,10 +29,10 @@
         transform: translate(0, -100%);
       
         ">
-        
+        <h1  id="title">PHP Calculator</h1>
         <form id="count" align="center" class="col s12" 
         action="calculator.php" method="post"
-        
+
         >
         <div 
         style="display: flex;
@@ -50,6 +50,7 @@
 
                             <input 
                             type="text" 
+                            onkeypress="return isNumberKey(event,this)"
                             name="firstNum" 
                             id="firstNum"
                             class="toBeProcessed"
@@ -68,7 +69,8 @@
                             <label for="secondNum">Second Number</label>
                             <input 
                             class="toBeProcessed"
-                            type="text" 
+                            type="text"
+                            onkeypress="return isNumberKey(event,this)"
                             name="secondNum" 
                             id="secondNum"
                             style="text-align: center;
@@ -86,12 +88,6 @@
         </form>
         
             </div>
-           
-            
-                    <div name="score" id="score">The value is </div>
-                  
-              <!-- Modal Trigger -->
-  <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a>
 
 <!-- Modal Structure -->
 <div id="modal1" class="modal">

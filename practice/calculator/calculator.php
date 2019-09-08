@@ -12,7 +12,7 @@ class Calc
     private $firstNum;
     private $secondNum;
     
-    function __construct(int $firstNum, int $secondNum) {
+    function __construct(float $firstNum, float $secondNum) {
         $this->firstNum = $firstNum;
         $this->secondNum = $secondNum;
     }
@@ -34,18 +34,20 @@ class Calc
 $allNumbers = new Calc($first, $second);
 
 if(isset($_POST['add'])) {
-    $score = $allNumbers->add();
+    $score = round($allNumbers->add(), 2);
     echo "<script> showScore($score) </script>";
 }
 elseif(isset($_POST['sub'])) {
-    $score = $allNumbers->subtract();   
+    $score = round($allNumbers->subtract(), 2);   
     echo "<script> showScore($score) </script>";
 }
 elseif(isset($_POST['mul'])) {
-    echo $allNumbers->multiply();   
+    $score = round($allNumbers->multiply(), 2);   
+    echo "<script> showScore($score) </script>";  
 }
 elseif(isset($_POST['div'])) {
-    echo $allNumbers->divide();   
+    $score = round($allNumbers->divide(), 2);   
+    echo "<script> showScore($score) </script>";  
 }
 
 
