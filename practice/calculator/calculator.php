@@ -3,8 +3,8 @@
 
 
 
-$first = $_POST['firstNum'];
-$second = $_POST['secondNum'];
+$first = $_REQUEST['firstNum'];
+$second = $_REQUEST['secondNum'];
 
 
 class Calc
@@ -35,38 +35,28 @@ $allNumbers = new Calc($first, $second);
 
 if(isset($_POST['add'])) {
     $score = $allNumbers->add();
-   // echo $score;
-    echo '<script>showname($_score) </script>';
+    echo "<script> showScore($score) </script>";
+}
+elseif(isset($_POST['sub'])) {
+    $score = $allNumbers->subtract();   
+    echo "<script> showScore($score) </script>";
+}
+elseif(isset($_POST['mul'])) {
+    echo $allNumbers->multiply();   
+}
+elseif(isset($_POST['div'])) {
+    echo $allNumbers->divide();   
+}
 
 
 
 
-
-//print_r(  $allNumbers->add());
-
-
-
-   //echo '<a href="calculator.html">';
-    
-    
-  //  echo header('Location: calculator.html');
-  
+// $selected_button = isset($_POST['add']);
+// if ($_SERVER ["REQUEST_METHOD"] == "POST" ) { 
+//         $score = $allNumbers->add();
    
-
+//        echo $score;
     
- 
-}
-if(isset($_POST['sub'])) {
-    echo $allNumbers->subtract() .'<br>';   
-}
-if(isset($_POST['mul'])) {
-    echo $allNumbers->multiply() .'<br>';   
-}
-if(isset($_POST['div'])) {
-    echo $allNumbers->divide() .'<br>';   
-}
-// echo $allNumbers->add() .'<br>';
-// echo $allNumbers->subtract() .'<br>';
-
+// }
 ?>
 

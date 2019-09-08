@@ -11,10 +11,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>  
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
     </head>
     <body>
-       
+      
 
     <div class="row" style="
         
@@ -28,7 +30,8 @@
       
         ">
         
-        <form align="center" class="col s12" action="calculator.php" method="post"
+        <form id="count" align="center" class="col s12" 
+        action="calculator.php" method="post"
         
         >
         <div 
@@ -85,18 +88,27 @@
             </div>
            
             
-                    <p name="score" id="score">The value is
-                       
-                    </p>
+                    <div name="score" id="score">The value is </div>
                   
-            
+              <!-- Modal Trigger -->
+  <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a>
+
+<!-- Modal Structure -->
+<div id="modal1" class="modal">
+  <div class="modal-content">
+    <h4 id="result"></h4>
+  </div>
+  <div class="modal-footer">
+    <button id="closeBtn" href="#!" class="modal-close waves-effect waves-green btn-flat">OK</button>
+  </div>
+</div>
+
     </div>
          
         <script type="text/javascript" src="script.js" ></script>
 
     </body>
 </html>
-<?php
 
 
-//require_once  'count.php';
+

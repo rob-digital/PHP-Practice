@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="554810db-2071-42bf-9f65-f8021f0adf9a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Handlind_Files/error.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Objects/18-constructor.php" beforeDir="false" afterPath="$PROJECT_DIR$/Objects/18-constructor.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/ajaxCall.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/calculator.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/calculator2.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/info.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/calculator/calculator.php" beforeDir="false" afterPath="$PROJECT_DIR$/practice/calculator/calculator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/calculator/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/practice/calculator/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/calculator/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/practice/calculator/script.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +24,7 @@
   <component name="ProjectId" id="1QH9IrhBI3d1mGhIqEeA7Yf6qyk" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PHP_ecommerce" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -60,6 +56,7 @@
       <option name="presentableId" value="Default" />
       <updated>1567416577859</updated>
       <workItem from="1567416578920" duration="4434000" />
+      <workItem from="1567699121030" duration="82000" />
     </task>
     <servers />
   </component>
@@ -71,7 +68,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
