@@ -53,7 +53,7 @@
                             onkeypress="return isNumberKey(event,this)"
                             name="firstNum" 
                             id="firstNum"
-                            class="toBeProcessed"
+                            class="inputField"
                             style="text-align: center;
                             font-size: 5em;
                             height: auto;
@@ -68,7 +68,7 @@
 
                             <label for="secondNum">Second Number</label>
                             <input 
-                            class="toBeProcessed"
+                            class="inputField"
                             type="text"
                             onkeypress="return isNumberKey(event,this)"
                             name="secondNum" 

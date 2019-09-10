@@ -31,6 +31,13 @@ class Calc
     }
 }
 
+if ($_SERVER["REQUEST_METHOD"] === "POST") {
+    if ($first == NULL || $second == NULL) {
+        echo '<p align="center" style="color:red"><u><b>Please provide both numbers</b></u></p>';
+        return;
+    }
+}
+
 $allNumbers = new Calc($first, $second);
 
 if(isset($_POST['add'])) {
