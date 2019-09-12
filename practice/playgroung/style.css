@@ -1,0 +1,25 @@
+header {
+    background-color: aqua;
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+.container{
+    padding-top: 10px;
+}
+
+.subcontainer{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+}
+.d1{
+    background-color: blanchedalmond;
+}
+.d2{
+    background-color: lightgrey;
+}
+.d3{
+    background-color: burlywood;
+}
+.box{
+    padding: 3%
+}

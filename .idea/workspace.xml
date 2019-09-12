@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="554810db-2071-42bf-9f65-f8021f0adf9a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/calculator/calculator.php" beforeDir="false" afterPath="$PROJECT_DIR$/practice/calculator/calculator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/calculator/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/practice/calculator/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/calculator/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/practice/calculator/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Handlind_Files/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Handlind_Files/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/16-foreach.php" beforeDir="false" afterPath="$PROJECT_DIR$/basics/16-foreach.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,13 +19,23 @@
       <executable />
     </execution>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1QH9IrhBI3d1mGhIqEeA7Yf6qyk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PHP_ecommerce" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -57,6 +68,9 @@
       <updated>1567416577859</updated>
       <workItem from="1567416578920" duration="4434000" />
       <workItem from="1567699121030" duration="82000" />
+      <workItem from="1568187367132" duration="13009000" />
+      <workItem from="1568277976499" duration="15061000" />
+      <workItem from="1568306086161" duration="672000" />
     </task>
     <servers />
   </component>

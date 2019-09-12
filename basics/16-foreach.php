@@ -3,7 +3,7 @@
 $animals = ['dog', 'cat', 'pig', 'rat'];
 
 foreach($animals as $animal) {
-    echo '<ul><li>'.$animal.'</li></ul>';
+    echo '<li>'.$animal.'</li>';
 }
 echo '<hr>';
 
